@@ -1,0 +1,12 @@
+{"namespace": "avro",
+ "type": "record",
+ "name": "Message",
+ "fields": [
+     {"name": "timestamp", "type": "long"},
+     {"name": "message",  "type": "string"},
+     {"name": "offset", "type":"long"},
+     {"name": "name", "type":["null","string"]},
+     {"name": "ip", "type":["null","string"]},
+     {"name": "center", "type":["null","string"]}
+ ]
+}
